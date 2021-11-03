@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cleme\\source\\repos\\DiscordNNNBot\\DiscordNNNBot\\DiscordNNNBot.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cleme\\source\\repos\\DiscordNNNBot\\DiscordNNNBot\\DiscordNNNBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cleme\\source\\repos\\DiscordNNNBot\\DiscordNNNBot\\DiscordNNNBot.csproj",
+        "projectName": "DiscordNNNBot",
+        "projectPath": "C:\\Users\\cleme\\source\\repos\\DiscordNNNBot\\DiscordNNNBot\\DiscordNNNBot.csproj",
+        "packagesPath": "C:\\Users\\cleme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cleme\\source\\repos\\DiscordNNNBot\\DiscordNNNBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cleme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "DSharpPlus": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "DSharpPlus.CommandsNext": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "DSharpPlus.Interactivity": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
